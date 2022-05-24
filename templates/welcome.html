@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Hur gammal är Alice?{% endblock %}
+
+{% block content %}
+	<h1>Hur gammal är Alice?</h1>
+	<p>
+		Född: {{born}}<br>
+		Dagens datum: {{todays_date}}<br>
+		Människoår: {{man_years}} år och {{man_months}} månader<br>
+		Hundår: {{display_dog_years}}
+	</p>
+{% endblock %}
