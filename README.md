@@ -1,4 +1,4 @@
-# Project: alice-age
+# Project: Man to dog age calculation
 
 Calculates dog years from man years based on an updated formula based on new research.<br> 
 
