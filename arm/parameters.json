@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "8fc0197c-c7eb-416c-885d-1364d0c18b85"
+        },
+        "name": {
+            "value": "man-to-dog-years"
+        },
+        "location": {
+            "value": "East US 2"
+        },
+        "hostingPlanName": {
+            "value": "ASP-mantodogyearsus2rg-9db5"
+        },
+        "serverFarmResourceGroup": {
+            "value": "man-to-dog-years-us2-rg"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "sku": {
+            "value": "Standard"
+        },
+        "skuCode": {
+            "value": "S2"
+        },
+        "workerSize": {
+            "value": "1"
+        },
+        "workerSizeId": {
+            "value": "1"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "linuxFxVersion": {
+            "value": "PYTHON|3.9"
+        }
+    }
+}
