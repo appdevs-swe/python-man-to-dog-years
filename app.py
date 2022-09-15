@@ -26,5 +26,3 @@ def welcome():
     return render_template(
         "welcome.html", man_years=years, man_months=months, man_days=days, born=date_born, todays_date=date_today,display_dog_years=dog_years, 
     )
-
-
